@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/Twaija-web/precache-manifest.8fb2dc2706aa48dc5bb3a4762cb4ed27.js"
+  "/Twaija-web/precache-manifest.8243737fc50da2138a030d71f293c06f.js"
 );
 
 workbox.clientsClaim();
