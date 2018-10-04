@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/Twaija-web/static/media/twaija_3.28e8c5af.png"
   },
   {
-    "revision": "4501f6b8960acbd11ab40bd8139f7fe2",
+    "revision": "1285f3d92508d4bbea4ef7315ce53db0",
     "url": "/Twaija-web/index.html"
   }
 ];
