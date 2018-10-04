@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Twaija-web/static/media/logo_.965c7a5b.png"
   },
   {
-    "revision": "f9335100eb34fa8d4624",
-    "url": "/Twaija-web/static/css/main.0f7a22ab.chunk.css"
+    "revision": "e4517d73d8e4ec52e034",
+    "url": "/Twaija-web/static/css/main.b130575f.chunk.css"
   },
   {
     "revision": "c4808ed350b5396e751a",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/Twaija-web/static/media/twaija_1.1d3c20a3.png"
   },
   {
-    "revision": "f9335100eb34fa8d4624",
-    "url": "/Twaija-web/static/js/main.f9335100.chunk.js"
+    "revision": "e4517d73d8e4ec52e034",
+    "url": "/Twaija-web/static/js/main.e4517d73.chunk.js"
   },
   {
     "revision": "9ac279f97fd30bde7b19709196d0a23c",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/Twaija-web/static/media/twaija_3.28e8c5af.png"
   },
   {
-    "revision": "19ea8d2b6b58f3a5a3f0fb51e11920fd",
+    "revision": "d524d4e3e9f73c4324a31bdeaef407fa",
     "url": "/Twaija-web/index.html"
   }
 ];
