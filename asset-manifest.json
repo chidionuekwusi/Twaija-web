@@ -1,7 +1,7 @@
 {
-  "main.css": "/Twaija-web/static/css/main.49c5bcb0.chunk.css",
-  "main.js": "/Twaija-web/static/js/main.5fd15fcd.chunk.js",
-  "main.js.map": "/Twaija-web/static/js/main.5fd15fcd.chunk.js.map",
+  "main.css": "/Twaija-web/static/css/main.146eff74.chunk.css",
+  "main.js": "/Twaija-web/static/js/main.f1c76bf8.chunk.js",
+  "main.js.map": "/Twaija-web/static/js/main.f1c76bf8.chunk.js.map",
   "static/js/1.c4808ed3.chunk.js": "/Twaija-web/static/js/1.c4808ed3.chunk.js",
   "static/js/1.c4808ed3.chunk.js.map": "/Twaija-web/static/js/1.c4808ed3.chunk.js.map",
   "runtime~main.js": "/Twaija-web/static/js/runtime~main.ac4b3bc5.js",
@@ -12,8 +12,8 @@
   "static/media/twaija_2.png": "/Twaija-web/static/media/twaija_2.a1b05efa.png",
   "static/media/twaija_3.png": "/Twaija-web/static/media/twaija_3.28e8c5af.png",
   "static/media/logo_.png": "/Twaija-web/static/media/logo_.965c7a5b.png",
-  "static/css/main.49c5bcb0.chunk.css.map": "/Twaija-web/static/css/main.49c5bcb0.chunk.css.map",
+  "static/css/main.146eff74.chunk.css.map": "/Twaija-web/static/css/main.146eff74.chunk.css.map",
   "index.html": "/Twaija-web/index.html",
-  "precache-manifest.8243737fc50da2138a030d71f293c06f.js": "/Twaija-web/precache-manifest.8243737fc50da2138a030d71f293c06f.js",
+  "precache-manifest.4792a65e78393f2e9386bf3f73599efe.js": "/Twaija-web/precache-manifest.4792a65e78393f2e9386bf3f73599efe.js",
   "service-worker.js": "/Twaija-web/service-worker.js"
 }
