@@ -1,0 +1,47 @@
+@import "../../common.scss";
+.outro {
+  min-height: 100vh;
+  @include contentPane;
+  .download {
+    /* Extra small devices (phones, 600px and down) */
+    .container {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 50px;
+    }
+    @media only screen and (max-width: 600px) {
+      .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+      }
+    }
+
+    h2 {
+      margin-bottom: 40px;
+      @include sexy;
+    }
+    a {
+      @include button;
+      width: 300px;
+      margin-left: 2px;
+      &[disabled] {
+        border-color: $disabled-primary-color;
+        color: $disabled-foreground-color;
+        background-color: $disabled-primary-color;
+      }
+    }
+  }
+  .team {
+    .avatar-title {
+      @include sexy;
+    }
+    .avatar {
+      height: 40vh;
+      border-radius: 100%;
+    }
+    .github-avatar {
+      height: 5vh;
+    }
+  }
+}

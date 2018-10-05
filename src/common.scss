@@ -1,0 +1,32 @@
+$shadow-light: 3px 3px 3rem rgba(0, 0, 0, 0.4);
+$primary-color: rgb(39, 39, 39);
+$button-foreground-color: white;
+$margin: 25px;
+$background-color: white;
+$foreground-color: rgb(39, 39, 39);
+$shadow-dark: 3px 3px 3rem rgba(0, 0, 0, 0.898);
+$disabled-foreground-color: rgb(181, 181, 181);
+$disabled-primary-color: rgb(118, 117, 117);
+@mixin contentPane {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@mixin button {
+  text-decoration: none;
+  border-color: $primary-color;
+  color: $primary-color;
+  border-width: 5px;
+  border-style: solid;
+  font-weight: 900;
+  padding: 15px 30px;
+  margin-bottom: $margin;
+  &:hover {
+    background-color: $primary-color;
+    color: $button-foreground-color;
+  }
+}
+@mixin sexy {
+  text-decoration: line-through red;
+}

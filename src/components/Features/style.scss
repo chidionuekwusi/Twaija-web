@@ -1,0 +1,46 @@
+@import "../../common.scss";
+.features {
+  @include contentPane;
+  min-height: 100vh;
+  position: relative;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: row;
+  .content {
+    @include contentPane;
+    .title {
+      @include sexy;
+      font-size: 5vh;
+    }
+    flex: 1;
+    text-align: left;
+    .list {
+      list-style: lower-alpha;
+      padding: 0;
+      li {
+        margin: 25px 0px;
+        font-weight: bold;
+      }
+    }
+  }
+  .gallery {
+    position: relative;
+    flex: 1;
+    [class^="pic"] {
+      height: 45vh;
+      box-shadow: $shadow-light;
+    }
+    .pic1 {
+      position: absolute;
+      top: -5%;
+      left: 27%;
+      box-shadow: $shadow-dark;
+    }
+    .pic3 {
+      position: absolute;
+      top: 25%;
+      box-shadow: $shadow-light;
+      left: 20%;
+    }
+  }
+}

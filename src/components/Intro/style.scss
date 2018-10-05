@@ -1,0 +1,57 @@
+@import "../../common.scss";
+.intro {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  @include contentPane;
+  .logo {
+    height: 10vh;
+    display: block;
+    margin: auto;
+  }
+  ::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: rotate(30deg);
+  }
+  .title {
+    font-family: "Notable";
+    font-size: 6vh;
+    color: $primary-color;
+    margin: 0;
+  }
+  .subtitle {
+    display: block;
+    font-size: 3vh;
+    margin: 0;
+    margin-bottom: $margin;
+  }
+  .display-image {
+    box-shadow: $shadow-light;
+    height: 45vh;
+    display: block;
+    margin-bottom: $margin;
+  }
+  .download-button {
+    display: inline-block;
+    margin-right: 2px;
+    align-self: center;
+    @include button;
+  }
+  @media only screen and (max-width: 600px) {
+    .download-button {
+      display: block;
+      margin: ($margin/2) 5px;
+    }
+    .display-image {
+      margin: ($margin/2) 0px;
+      width: 100%;
+    }
+  }
+}

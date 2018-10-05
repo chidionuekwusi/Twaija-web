@@ -1,13 +1,19 @@
 {
-  "name": "web",
+  "name": "twaija-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.9.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-reveal": "^1.2.2",
     "react-scripts": "2.0.4"
   },
+  "homepage": "https://chidionuekwusi.github.io/Twaija-web",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
